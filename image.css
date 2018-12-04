@@ -1,0 +1,409 @@
+body{
+    width: 100%;
+    background-color: #191919;
+    overflow-x: hidden;
+}
+.containar{
+    
+    width: 70%;
+    margin: auto;
+    background-color: #191919;
+}
+/*------------------------------------------------nav div---------------------------------------------------------------------*/
+.nav
+{
+    background-color:#191919;
+    height: 66px;
+    margin-bottom: 30px;
+}
+.nav span
+{
+    display: inline;
+    }
+.nav span p,h1,h3,h4,h5
+{
+    line-height: 1px;
+}
+.one
+{
+    float: left;
+    width: 20%;
+    background-color: #151515;
+    color: #3c5959;
+    text-align: center;
+    font-size: 26px;
+    margin-right: 48px;
+}
+.two
+{
+    float: left;
+    width: 50%;
+    background-color: #151515;
+    color: #3c5959;
+    text-align: right;
+    font-size: 15px;
+    padding-right: 5px;
+}
+.three
+{
+    float: right;
+    width: 20%;
+    background-color: #151515;
+    color: #3c5959;
+    text-align: center;
+    font-size: 21px;
+}
+/*-------------------------------------------------------content div------------------------------------------------------------------*/
+.title a
+{
+    clear: both;
+    float: right;
+    color: #249cc1;
+    margin-right: 20px;
+    text-decoration: none;
+    
+}
+.content
+{
+    clear: both;
+    
+    margin-top: 80px;   
+}
+.left
+{
+
+ width: 38%;
+ float: left;
+ 
+}
+.right
+{
+    width: 60%;
+    float: right;
+}
+
+.left .one
+{
+    background-color: #151515;
+    width: 100%;
+    border-radius: 23px;
+    text-align: center;
+}
+
+
+.left .one ul li
+{
+    
+    margin-bottom: 10px;
+    list-style-type: none;
+    
+}
+.left .two
+{
+    background-color: #191919 ;
+    width: 100%;
+}
+.left .two p
+{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.left .two .likes
+{
+    width: 100%;
+    
+    
+}
+
+.left .three
+{
+    width: 100%;
+   background-color: #191919;
+    
+}
+
+.left .three iframe
+{
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.left .four
+{
+    background-color: #141414;
+    border-radius: 5px;
+    
+}
+.left .four ul
+{
+    
+    padding: 5px;
+    color: white;
+    list-style: none;
+}
+.left .four ul li
+{
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 30px;
+    direction: rtl;
+}
+.left .four ul a
+{
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
+.left .four ul span
+{
+    color: #706A6A;
+}
+.right button
+{
+    margin-top: 20px;
+    margin-left: 197px;
+    border-radius: 5px;
+    background-color: yellow;
+    width: 170px;
+    height: 40px;
+}
+.right button:hover
+{
+    background-color: green;
+    width: 200px;
+    height: 45px;
+}
+
+.right .story
+{
+    margin-top: 20px;
+    direction: rtl;
+    font-size: 20px;
+    color: white;
+}
+.image
+{
+    clear:both;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.image img
+{
+    width: 600px;
+    margin-left: 200px;
+    
+}
+
+.link
+{
+    clear: both;
+    background-color: #141414;
+    text-align: center;
+    width: 90%;
+    margin:auto;
+}
+.link .down
+{
+    
+    color: #1185DD;
+    
+}
+.link i
+{
+    color: red;
+}
+.link .delay
+{
+    color: gray;
+    padding: 5px;
+}
+.watch
+{
+    clear: both;
+    background-color: #141414;
+    text-align: center;
+    width: 90%;
+    margin-left:95px;
+    
+}
+.watch .left
+{
+    float: left;
+    width: 30%;
+    background-color: #141414;
+    margin-bottom: 20px;
+}
+.watch .left img
+{
+    margin: 20px;
+    border-radius: 0px 100px 100px 0px;
+    
+    
+}
+.watch .center
+{
+    float: left;
+    width: 30%;
+    background-color: #141414;
+    margin-bottom: 20px;
+}
+.watch .center img
+{
+  margin: 20px;
+  border-radius: 0px 100px 100px 0px;
+  
+}
+.watch .right
+{
+    float: left;
+    width: 30%;
+    background-color: #141414;
+    margin-bottom: 20px;
+}
+.watch .right img
+{
+     margin: 20px;
+     
+     border-radius: 0px 100px 100px 0px;
+     
+     
+}
+.online
+{
+    clear: both;
+    margin-top: 10px;
+    background-color: #42DB1C;
+    margin-bottom: 5px;
+    
+}
+.online ul li
+{
+    padding: 10px;
+    margin-left: 20px;
+    height: 5px;
+    list-style: none;
+    display: inline-block;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}
+.online ul li img:hover
+{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.footer
+{
+    clear: both;
+    width: 100%;
+    background-color: #141414;
+    /*height: 100px;*/
+    text-align: center;
+    margin: auto;
+    padding-top:  5px;
+    color: white;
+    
+}
+.footer .comment
+{
+    float: left;
+    width: 40%
+}
+
+.footer .text
+{
+    clear: both;
+}
+.footer .text h2 span
+{
+    border: 1px groove;background-color: black;border-radius: 5px;
+    
+}
+.footer .comment h3
+{
+ margin-top: 100px;
+margin-right: 200px;
+color: black;
+font-size: 25px;
+direction: rtl
+}
+.footer .comment textarea
+{
+    
+    margin-bottom: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    float: left;
+    
+    
+}
+.footer .comment button
+{
+    clear: both;
+    width: 60px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    float: left;
+    
+   
+}
+.footer .links
+{
+    float: right;
+    width: 60%;
+}
+.footer .links .icon
+{
+    float: left;
+    margin-top: 45px;
+}
+.footer .links .icon ul li
+{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer .links .icon ul li a
+{
+     color: #00FF9D;
+     text-decoration: none;
+    
+}
+
+.footer .links .icon ul li img
+{
+    border-radius: 20px;
+    margin-left: 30px;
+    
+}
+.footer .links .icon ul li img:hover
+{
+    width: 70px;
+    height: 70px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}
+.footer .links .frame
+{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}  
+.footer .links .frame iframe
+{
+    border-radius: 10px;
+
+}

@@ -1,0 +1,779 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Droid Arabic Kufi', sans-serif;
+  /*font-size: 12px;*/
+  text-align: center;
+  margin: 0;
+  direction: rtl;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+
+/*............................................................................... nona .....................................................................*/
+
+.nona {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 120px;
+  width: 60%;
+  height: 300px;
+  position: relative;
+}
+
+.nona div {
+  width: 65%;
+  height: 300px;
+  border-radius: 50px 50px 50px 50px;
+  border: 3px solid #DDD;
+  transition: all 3s ease-in-out;
+  background-size: 100% 100%;
+  position: absolute;
+  opacity: .5;
+}
+
+.nona div:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity: 1;
+  z-index: 10;
+}
+
+.nona div:first-of-type {
+  background-image: url(image/23.jpg);
+  top: 0;
+  right: 0;
+  animation: nona1 15s infinite ease-in-out;
+  z-index: 7;
+}
+
+.nona div:nth-of-type(2) {
+  background-image: url('image/11.jpg');
+  top: 50px;
+  right: 100px;
+  animation: nona2 15s infinite ease-in-out;
+  z-index: 8;
+}
+
+.nona div:nth-of-type(3) {
+  background-image: url('image/13.jpg');
+  top: 100px;
+  right: 300px;
+  animation: nona3 15s infinite ease-in-out;
+  z-index: 9;
+}
+
+.nona div:nth-of-type(4) {
+  background-image: url('image/22.jpg');
+  top: 50px;
+  left: 100px;
+  animation: nona4 15s infinite ease-in-out;
+  z-index: 8;
+}
+
+.nona div:nth-of-type(5) {
+  background-image: url('image/130223.jpg');
+  top: 0px;
+  left: 0px;
+  animation: nona5 15s infinite ease-in-out;
+  z-index: 7;
+}
+
+.nona div:nth-of-type(6) {
+  background-image: url('image/18.jpg');
+  top: -50px;
+  left: 100px;
+  animation: nona6 15s infinite ease-in-out;
+  z-index: 6;
+}
+
+.nona div:nth-of-type(7) {
+  background-image: url('image/19.jpg');
+  top: -100px;
+  left: 300px;
+  animation: nona7 15s infinite ease-in-out;
+  z-index: 5;
+}
+
+.nona div:last-of-type {
+  background-image: url('image/1.jpg');
+  top: -50px;
+  right: 100px;
+  animation: nona8 15s infinite ease-in-out;
+  z-index: 6;
+}
+
+/*....................................................................... nona animation ................................................................*/
+
+@keyframes nona1 {
+  0%, 100% {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  12.5% {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  27% {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    z-index: 9;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 1;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  40% {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  55.3% {
+    position: absolute;
+    top: 0px;
+    right: 600px;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  67.11% {
+    position: absolute;
+    top: -50px;
+    right: 500px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  77% {
+    position: absolute;
+    top: -100px;
+    right: 300px;
+    z-index: 5;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  88.71% {
+    position: absolute;
+    top: -50px;
+    right: 100px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes nona2 {
+  0%, 100% {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  12.5% {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    z-index: 9;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 1;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  27% {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  40% {
+    position: absolute;
+    top: 0px;
+    right: 600px;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  55.3% {
+    position: absolute;
+    top: -50px;
+    right: 500px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  67.11% {
+    position: absolute;
+    top: -100px;
+    right: 300px;
+    z-index: 5;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  77% {
+    position: absolute;
+    top: -50px;
+    right: 100px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  88.71% {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes nona3 {
+  0%, 100% {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    z-index: 9;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 1;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  12.5% {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  27% {
+    position: absolute;
+    top: 0px;
+    right: 600px;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  40% {
+    position: absolute;
+    top: -50px;
+    right: 500px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  55.3% {
+    position: absolute;
+    top: -100px;
+    right: 300px;
+    z-index: 5;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  67.11% {
+    position: absolute;
+    top: -50px;
+    right: 100px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  77% {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  88.71% {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes nona4 {
+  0%, 100% {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  12.5% {
+    position: absolute;
+    top: 0px;
+    right: 600px;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  27% {
+    position: absolute;
+    top: -50px;
+    right: 500px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  40% {
+    position: absolute;
+    top: -100px;
+    right: 300px;
+    z-index: 5;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  55.3% {
+    position: absolute;
+    top: -50px;
+    right: 100px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  67.11% {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  77% {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  88.71% {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    z-index: 9;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 1;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+@keyframes nona5 {
+  0%, 100% {
+    position: absolute;
+    top: 0px;
+    right: 600px;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  12.5% {
+    position: absolute;
+    top: -50px;
+    right: 500px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  27% {
+    position: absolute;
+    top: -100px;
+    right: 300px;
+    z-index: 5;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  40% {
+    position: absolute;
+    top: -50px;
+    right: 100px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  55.3% {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  67.11% {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  77% {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    z-index: 9;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 1;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  88.71% {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes nona6 {
+  0%, 100% {
+    position: absolute;
+    top: -50px;
+    right: 500px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  12.5% {
+    position: absolute;
+    top: -100px;
+    right: 300px;
+    z-index: 5;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  27% {
+    position: absolute;
+    top: -50px;
+    right: 100px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  40% {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  55.3% {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  67.11% {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    z-index: 9;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 1;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  77% {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  88.71% {
+    position: absolute;
+    top: 0px;
+    right: 600px;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes nona7 {
+  0%, 100% {
+    position: absolute;
+    top: -100px;
+    right: 300px;
+    z-index: 5;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  12.5% {
+    position: absolute;
+    top: -50px;
+    right: 100px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  27% {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  40% {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  55.3% {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    z-index: 9;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 1;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  67.11% {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  77% {
+    position: absolute;
+    top: 0px;
+    right: 600px;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  88.71% {
+    position: absolute;
+    top: -50px;
+    right: 500px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes nona8 {
+  0%, 100% {
+    position: absolute;
+    top: -50px;
+    right: 100px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  12.5% {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  27% {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  40% {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    z-index: 9;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 1;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  55.3% {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    z-index: 8;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  67.11% {
+    position: absolute;
+    top: 0px;
+    right: 600px;
+    z-index: 7;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  77% {
+    position: absolute;
+    top: -50px;
+    right: 500px;
+    z-index: 6;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  88.71% {
+    position: absolute;
+    top: -100px;
+    right: 300px;
+    z-index: 5;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
